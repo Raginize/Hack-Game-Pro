@@ -150,6 +150,8 @@ $(document).ready(function(){
     }
 
     batterypercentage();
+    if (window.location.href.indexOf("profile") != -1){
     milestone();
-
+    };
+    
 });
